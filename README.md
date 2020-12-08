@@ -1,7 +1,7 @@
 # Amnesic Probing
 This repository contain all the codebase for the paper:
 
-"When Bert Forgets How To POS: Amnesic Probing of Linguistic Properties and MLM Predictions"
+"Amnesic Probing: Behavioral Explanation with Amnesic Counterfactuals"
 
 ## General Notes and Considerations
 This work contain many moving parts, which are build one on top of the other, therefore the code
