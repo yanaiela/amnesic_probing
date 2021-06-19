@@ -3,6 +3,8 @@ This repository contain all the codebase for the paper:
 
 "Amnesic Probing: Behavioral Explanation with Amnesic Counterfactuals"
 
+_Note that a previous version of this paper that appeared on arxiv in 2020 was named: "**When Bert Forgets How To POS: Amnesic Probing of Linguistic Properties and MLM Predictions**", which we changed to the current title to better reflect our contributions._
+
 ## General Notes and Considerations
 This work contain many moving parts, which are build one on top of the other, therefore the code
 also contain many different parts.
@@ -78,10 +80,18 @@ the evaluation:
 ## Citation
 If you find this work relevant to yours, please cite us:
 ```
-@misc{amnesic_probing,
-Author = {Yanai Elazar and Shauli Ravfogel and Alon Jacovi and Yoav Goldberg},
-Title = {Amnesic Probing: Behavioral Explanation with Amnesic Counterfactuals},
-Year = {2020},
-Eprint = {arXiv:2006.00995},
+@article{amnesic-probing,
+    author = {Elazar, Yanai and Ravfogel, Shauli and Jacovi, Alon and Goldberg, Yoav},
+    title = "{Amnesic Probing: Behavioral Explanation with Amnesic Counterfactuals}",
+    journal = {Transactions of the Association for Computational Linguistics},
+    volume = {9},
+    pages = {160-175},
+    year = {2021},
+    month = {03},
+    issn = {2307-387X},
+    doi = {10.1162/tacl_a_00359},
+    url = {https://doi.org/10.1162/tacl\_a\_00359},
+    eprint = {https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl\_a\_00359/1894330/tacl\_a\_00359.pdf},
 }
+
 ```
